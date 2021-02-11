@@ -2,11 +2,11 @@
 
 19.0.0.0/8
 
-## Indirizzo binario:
+### Indirizzo binario:
 
 00010011.00000000.00000000.00000000
 
-## Maschera binario:
+### Maschera binario:
 
 11111111.00000000.00000000.00000000
 
@@ -17,19 +17,19 @@ servono 500 sottoreti quindi prendo 9 bit e posso fare 512 sottoreti.
 11111111.11111111.10000000.00000000
 255.255.128.0
 
-## Prima sottorete:
+### Prima sottorete:
 
 00010011.00000000.0 0000000.00000000
 
 19.0.128.0/17
 
-## Seconda sottorete:
+### Seconda sottorete:
 
 00010011.00000000.1 0000000.00000000
 
 19.1.0.0/17
 
-## Terza sottorete:
+### Terza sottorete:
 
 00010011.00000001.0 0000000.00000000
 
@@ -43,19 +43,19 @@ servono 500 sottoreti quindi prendo 9 bit e posso fare 512 sottoreti.
 
 19.250.0.0/17
 
-## Primo indirizzo utile:
+### Primo indirizzo utile:
 
 00010011.11111010.0 0000000.00000001
 
 19.250.0.1/17
 
-## Ultimo indirizzo utile
+### Ultimo indirizzo utile
 
 00010011.11111010.0 1111111.11111110
 
 19.250.127.254/17
 
-## indirizzo di broadcast
+### indirizzo di broadcast
 
 00010011.11111010.0 1111111.11111111
 
