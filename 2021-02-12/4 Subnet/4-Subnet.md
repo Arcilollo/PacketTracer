@@ -1,35 +1,53 @@
-**Indirizzo di partenza:**
+### Indirizzo di partenza:
+
 192.168.0.0/21
 
-**Subnet mask:**
+### Subnet mask:
+
 11111111.11111111.11111000.00000000
+
 255.255.248.0
+
+
+### Nuova subnet mask:
 
 Servono 4 sottoreti quindi si prendo 2 bit dal campo host
 
-**Nuova subnet mask:**
 11111111.11111111.11111110.00000000
+
 255.255.254.0
 
-**Elenco delle subnet ottenute:**
+
+
+### Elenco delle subnet ottenute:
+
 1. 192.168.0.0/23
 2. 192.168.2.0/23
 3. 192.168.4.0/23
 4. 192.168.6.0/23
 
-**Elenco delle subnet ottenute in binario:**
+
+
+### Elenco delle subnet ottenute in binario:
+
 1. 192.168.0000000 0.00000000/23
 2. 192.168.0000001 0.00000000/23
 2. 192.168.0000010 0.00000000/23
 2. 192.168.0000011 0.00000000/23
 
-**indirizzi host disponibili:**
+
+
+### Indirizzi host disponibili:
+
 1. 192.168.0.1/23 - 192.168.1.254/23
 2. 192.168.2.1/23 - 192.168.3.254/23
 3. 192.168.4.1/23 - 192.168.5.254/23
 4. 192.168.6.1/23 - 192.168.7.254/23
 
-**indirizza di broadcast:**
+
+
+### indirizzi di broadcast:
+
 1. 192.168.1.255/23
 2. 192.168.3.255/23
 3. 192.168.5.255/23
