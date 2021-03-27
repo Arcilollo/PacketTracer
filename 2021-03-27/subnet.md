@@ -1,8 +1,13 @@
+# Indirizzo di partenza
+
 172.16.0.0/16
 
-Sottorete C: 510 host
-Sottorete B: 200 host
-Sottorete A: 50 host
+**Devo creare 3 subnet:**
+1. Sottorete A: 50 host
+2. Sottorete B: 200 host
+3. Sottorete C: 510 host
+
+# Creazione sottoreti
 
 * 172.16.0.0/23 -> Sottorete C			172.16.0.1 -> 172.16.1.254
 * 172.16.2.0/23
